@@ -40,8 +40,8 @@ if __name__ == '__main__':
 
     ec2Client = boto3.client( # Connect AWS Data
         'ec2',
-        aws_access_key_id="AKIARJ3HHC6PNW2LGBPZ",
-        aws_secret_access_key="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"
+        aws_access_key_id="",
+        aws_secret_access_key=""
     )
 
     print('Import start')
